@@ -14,16 +14,16 @@ k = w.rain
 e = w.clouds
 print(h)
 p = str(u['speed'])
-print('cechas speed vetra ' + p + ' km/ch')
+print('now speed wind ' + p + ' km/ch')
 pp = str(i)
-print('cechas vlajnast ' + pp + ' %')
+print('now humidity ' + pp + ' %')
 ppp = str(x['temp'])
-print('cechas timpiratura ' + ppp + '°С')
+print('now temperature ' + ppp + '°С')
 pppp =  str(x['feels_like'])
-print('sechas oshushaetsa ' + pppp + '°С')
+print('temperature feels like ' + pppp + '°С')
 if str(k) == '{}':
-    print('sechas dojda net')
+    print('now not rain')
 else:
     print(k)
 ppppp = str(e)
-print('sechas oblachnast ' + ppppp + ' %')
+print('now clouds ' + ppppp + ' %')
